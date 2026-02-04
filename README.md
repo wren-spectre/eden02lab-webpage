@@ -1,16 +1,91 @@
-# React + Vite
+# eden02 lab. Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the official repository for the **eden02 lab.** website.
+This project is a modern, responsive Single Page Application (SPA) designed to showcase the identity, research, and works of eden02 lab. It features a "Nordic Minimalist" aesthetic with smooth animations and a premium feel.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://wren-spectre.github.io/eden02lab-webpage/](https://wren-spectre.github.io/eden02lab-webpage/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Technologies
 
-## React Compiler
+This project is built using the following modern web technologies:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Core:** [React](https://react.dev/) (v19)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Routing:** [React Router](https://reactrouter.com/) (v7)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Styling:** CSS3 (Custom Properties, Flexbox, Grid, Responsive Design)
+- **Deployment:** GitHub Pages (`gh-pages`)
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+eden02lab-webpage/
+├── public/              # Static assets
+├── src/
+│   ├── assets/          # Images and media files
+│   ├── components/      # Reusable UI components (Header, Footer, Layout)
+│   ├── pages/           # Page components (Home, Overview, LabMembers, etc.)
+│   ├── App.jsx          # Main application component & Routing
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Global styles & variables
+├── package.json         # Project dependencies and scripts
+└── vite.config.js       # Vite configuration
+```
+
+## ✨ Key Features
+
+- **Modern UI/UX:** Clean, minimalist design with a sticky header and smooth scrolling effects.
+- **Responsive Layout:** Optimized for both desktop and mobile devices.
+- **Dynamic Routing:** Seamless navigation between pages without page reloads.
+- **Interactive Animations:** Engaging entrance animations and hover effects powered by Framer Motion.
+- **Content Sections:**
+    - **Home:** Hero section with introductory content.
+    - **Overview:** Vision and mission statement.
+    - **Lab Members:** Team profiles.
+    - **Research Area:** Detailed breakdown of research fields (pulses, mirrors, gears).
+    - **Case Studies:** Expandable album and track details.
+    - **Contact:** Information for inquiries.
+
+## 🛠️ Installation & Setup
+
+To run this project locally, follow these steps:
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/wren-spectre/eden02lab-webpage.git
+    cd eden02lab-webpage
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+    The app will represent at `http://localhost:5173`.
+
+## 📦 Build & Deploy
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+To deploy to GitHub Pages:
+
+```bash
+npm run deploy
+```
+
+## 📝 License
+
+This project is proprietary to **eden02 lab**.  
+Copyright © 2026 wren spectre from mirrors of eden02 lab.
+
+---
+*Created by eden02 lab. technical team.*
