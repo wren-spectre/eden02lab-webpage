@@ -1,0 +1,56 @@
+/* Home Page Styles */
+
+
+#hero {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    min-height: 80vh;
+    /* 화면의 80% 높이 차지 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+#hero h2 {
+    font-family: var(--font-heading);
+    font-size: 3em;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+#hero p {
+    font-family: var(--font-body);
+    font-size: 1.4em;
+    color: #444;
+    margin-bottom: 50px;
+}
+
+#scrollToAboutBtn {
+    background-color: var(--color-secondary);
+    color: #fff;
+    font-size: 1.1em;
+    padding: 12px 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#scrollToAboutBtn:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    #hero h2 {
+        font-size: 2.2em;
+    }
+
+    #hero p {
+        font-size: 1.1em;
+    }
+}

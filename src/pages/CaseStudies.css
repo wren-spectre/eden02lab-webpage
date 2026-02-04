@@ -1,0 +1,71 @@
+/* CaseStudies Styles */
+.results-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.result-item-card {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    width: 90%;
+    max-width: 500px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.result-item-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header h3 {
+    font-family: var(--font-heading);
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.card-header .meta {
+    color: #777;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.result-detail {
+    text-align: left;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    color: #444;
+}
+
+.result-detail p {
+    margin-bottom: 10px;
+}
+
+.track-list {
+    margin-top: 15px;
+}
+
+.track-list ul {
+    list-style: none;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+
+.track-list li {
+    margin-bottom: 3px;
+    font-size: 0.95em;
+    color: #555;
+}

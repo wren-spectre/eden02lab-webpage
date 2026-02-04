@@ -1,0 +1,18 @@
+/* Overview Styles */
+.overview-content {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    /* Ensure it takes full width within the centered container if needed */
+}
+
+.overview-text p {
+    font-family: var(--font-body);
+    font-size: 1.25em;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}

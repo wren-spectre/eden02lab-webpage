@@ -1,0 +1,11 @@
+/* Footer Styles */
+.footer {
+    background-color: #fff;
+    color: #000;
+    font-family: var(--font-body);
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid #eee;
+    margin-top: auto;
+    /* Layout flex column push footer to bottom */
+}
