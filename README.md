@@ -88,4 +88,4 @@ This project is proprietary to **eden02 lab**.
 Copyright © 2026 wren spectre from mirrors of eden02 lab.
 
 ---
-*Created by eden02 lab. technical team.*
+*Created by wren spectre from mirrors of eden02 lab.*
